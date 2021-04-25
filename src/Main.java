@@ -83,7 +83,7 @@ public class Main {
         CountryA.join();
         CountryB.join();
 
-        System.out.println("Победитель: " + (countRobotsCountryA >= 5 ? "Страна A" : "Страна В"));
+        System.out.println("Победитель: " + (countRobotsCountryA >= 20 ? "Страна A" : "Страна В"));
     }
 }
 
